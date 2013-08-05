@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PanicAway</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="productsPic">productsPic</string>
+    <string name="loginMembers">Members Area Login</string>
+    <string name="loginButton">loginButton</string>
+    <string name="forumLogin">Forum Login</string>
+    <string name="seven">7 Minute Exercise</string>
+    <string name="twentyOne">21 Second Technique</string>
+    
+
+</resources>
