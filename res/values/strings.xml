@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twenty One Seconds</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="observe">Observe</string>
+    <string name="embrace">Embrace</string>
+    <string name="demand_more">Demand More</string>
+    <string name="Trust">Trust</string>
+	<string name="logo_des">Panic Away Logo</string>
+	<string name="startBtn">Start Now</string>
+	<string name="seconds">21 Seconds</string>
+	
+</resources>
