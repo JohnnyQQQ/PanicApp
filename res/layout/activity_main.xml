@@ -9,11 +9,16 @@
     tools:context=".MainActivity" >
 
     <ImageView
+<<<<<<< HEAD
         android:id="@+id/logo"
+=======
+        android:id="@+id/imageView1"
+>>>>>>> 6dd259f8274355c2623c550e4c2888928def2233
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginTop="18dp"
         android:contentDescription="logo"
         android:src="@drawable/logo" />
@@ -85,3 +90,52 @@
    </LinearLayout>
 
 </RelativeLayout>
+=======
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/productsPic"
+        android:src="@drawable/mainimage" />
+
+    <Button
+        android:id="@+id/forumBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginBtn"
+        android:layout_below="@+id/loginBtn"
+        android:contentDescription="@string/forumLogin"
+        android:minHeight="50dp"
+        android:minWidth="250dp"
+        android:text="@string/forumLogin" />
+
+    <Button
+        android:id="@+id/twentyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/forumBtn"
+        android:layout_below="@+id/forumBtn"
+        android:minHeight="50dp"
+        android:minWidth="250dp"
+        android:text="@string/twentyOne" />
+
+    <Button
+        android:id="@+id/sevenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/twentyBtn"
+        android:layout_below="@+id/twentyBtn"
+        android:adjustViewBounds="true"
+        android:minHeight="50dp"
+        android:minWidth="250dp"
+        android:text="@string/seven" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:minHeight="50dp"
+        android:minWidth="250dp"
+        android:text="@string/loginMembers" />
+
+</RelativeLayout>
+>>>>>>> 6dd259f8274355c2623c550e4c2888928def2233

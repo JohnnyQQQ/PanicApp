@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.quirkeysolutions.twentyone"
+=======
+    package="com.example.panicapp"
+>>>>>>> 6dd259f8274355c2623c550e4c2888928def2233
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,6 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< HEAD
             android:name="com.quirkeysolutions.twentyone.MainActivity"
             android:label="@string/app_name" 
             android:screenOrientation="portrait" >         
@@ -29,6 +34,16 @@
         <activity android:name=".DemandActivity"></activity>
         <activity android:name=".TrustActivity"></activity>
         
+=======
+            android:name="com.example.panicapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+>>>>>>> 6dd259f8274355c2623c550e4c2888928def2233
     </application>
 
 </manifest>
